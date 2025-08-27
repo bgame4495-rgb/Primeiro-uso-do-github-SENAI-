@@ -12,5 +12,6 @@ if media >= 7:
 else:
     resultado = "REPROVADO"
 
-print:(f"media: {media}")
-print:(f"resultado: {resultado}")
+print(f"media: {media}")
+
+print(f"resultado: {resultado}")
