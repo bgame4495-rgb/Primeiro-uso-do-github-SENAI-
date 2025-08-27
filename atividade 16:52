@@ -1,0 +1,21 @@
+import os
+os.system ("cls")
+
+aluno  = (input(f"nome do aluno: "))
+nota1 = int(input(f"nota 1: "))
+nota2 = int(input(f"nota2: "))
+
+media = nota1 + nota2 /2 
+
+print(f"Nome do Aluno {aluno}") 
+print(f"Media {media}")
+if media >= 9:
+    print("APROVADO A")
+elif media >= 7.5 == 9: 
+    print("APROVADO B")
+elif media >= 7.5 - 6:
+    print("APROVADO C")
+elif media >= 6 - 3.9:
+    print("REPROVADO D")
+else:
+    print("REPROVADO E")
