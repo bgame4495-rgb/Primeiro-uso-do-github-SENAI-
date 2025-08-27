@@ -12,6 +12,8 @@ if media >= 7:
 else:
     resultado = "REPROVADO"
 
+print("\n")
 print(f"media: {media}")
 
 print(f"resultado: {resultado}")
+
